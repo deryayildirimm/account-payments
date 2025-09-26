@@ -28,8 +28,11 @@ This project was developed as part of a technical assessment. It demonstrates th
 #### 2. Account Selected
 ![Overview Selected](./screenshots/overview-beforeCreate.jpg)
 
-#### 3. After Creating a Payment
-![Overview After Create](./screenshots/overview-afterCreate.jpg)
+#### 3. Before Create Payment
+![Overview Before Create](./screenshots/before_create.jpg)
+
+#### 4. After Create Payment
+![Overview After Create](./screenshots/after_create.jpg)
 
 ---
 
@@ -47,7 +50,7 @@ Payment__c fields:
 
 ---
 
-📷 **Schema Builder Screenshot:**  
+📷 **Schema Builder  :**  
 
 ![Schema](./screenshots/schema.jpg)
 
