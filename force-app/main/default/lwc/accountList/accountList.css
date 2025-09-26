@@ -1,0 +1,16 @@
+.slds-item {
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    transition: background 0.2s;
+}
+
+.slds-item:hover {
+    background-color: #f0f8ff; /* hover */
+}
+
+.slds-item.selected {
+    background-color: #e6f2ff; /* açık mavi seçili */
+    font-weight: bold;
+}

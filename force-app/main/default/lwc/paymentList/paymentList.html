@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Payments" icon-name="custom:custom63">
+        <template if:true={payments}>
+            <lightning-datatable
+                key-field="Id"
+                data={payments}
+                columns={columns}>
+            </lightning-datatable>
+        </template>
+
+        <template if:false={payments}>
+            <p class="slds-text-body_regular slds-m-around_small">
+                No payments found for this account.
+            </p>
+        </template>
+    </lightning-card>
+</template>

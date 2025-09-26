@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Accounts" icon-name="standard:account">
+        <template if:true={accounts}>
+            <ul class="slds-list_vertical">
+                <template for:each={accounts} for:item="acc">
+                    <li key={acc.Id}
+                        class={acc.cssClass}
+                        data-id={acc.Id}
+                        onclick={handleSelect}>
+                        {acc.Name}
+                    </li>
+                </template>
+            </ul>
+        </template>
+
+        <template if:true={wiredAccounts.error}>
+            <p class="slds-text-color_error">{wiredAccounts.error}</p>
+        </template>
+    </lightning-card>
+</template>
