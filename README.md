@@ -1,4 +1,4 @@
-# 🔹 Account Payments LWC Project
+# 🔹 Account Payments 
 
 ![Project Overview](./screenshots/overview.jpg)
 
